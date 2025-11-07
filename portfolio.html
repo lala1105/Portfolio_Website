@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=League+Spartan:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-left">
+      <div class="dot"></div>
+      <div class="title">
+        <h1>Fiona Latisha</h1>
+      </div>
+    </div>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    <nav class="navbar-right" id="navbar-right">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="resume.html">Resume</a>
+      <a href="skills.html">Skills</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="portfolio-page">
+    <h1 class="section-title">My Projects</h1>
+    <div class="portfolio-grid">
+
+      <!-- Project 1 -->
+      <div class="portfolio-item">
+        <img src="images/petchow.png" alt="Project 1">
+        <h3>Petchow Website (Ongoing)</h3>
+        <div class="tech-badges">
+          <span class="badge">Next.js</span>
+          <span class="badge">Filament (Laravel)</span>
+          <span class="badge">MySQL</span>
+          <span class="badge">Figma</span>
+        </div>
+        <p>Developed a full-stack pet adoption website using Next.js for frontend and Filament (Laravel) for backend. Implemented user/adoption management, responsive UI, and integration testing for performance.</p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="portfolio-item">
+        <img src="images/fotile.png" alt="Project 2">
+        <h3>Fotile (Ongoing)</h3>
+        <div class="tech-badges">
+          <span class="badge">Frontend Testing</span>
+          <span class="badge">Backend Verification</span>
+          <span class="badge">Manual QA</span>
+          <span class="badge">API Validation</span>
+        </div>
+        <p>Tested and verified both frontend and backend functionality, ensuring UI consistency and smooth client–server data flow.</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="portfolio-item">
+        <img src="images/dunlop.png" alt="Project 3">
+        <h3>Dunlop</h3>
+        <div class="tech-badges">
+          <span class="badge">Manual Testing</span>
+          <span class="badge">Content QA</span>
+          <span class="badge">UI/UX Review</span>
+        </div>
+        <p>Checked and verified Dunlop Indonesia’s Press Release page for content accuracy, layout bugs, and browser compatibility.</p>
+        <a href="https://www.dunlop.co.id/en/pressrelease" target="_blank" class="view-btn">View Project</a>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="portfolio-item">
+        <img src="images/kita-garuda.png" alt="Project 4">
+        <h3>Kita Garuda Store</h3>
+        <div class="tech-badges">
+          <span class="badge">Manual Testing</span>
+          <span class="badge">UI/UX Review</span>
+          <span class="badge">Midtrans</span>
+          <span class="badge">E-Commerce QA</span>
+        </div>
+        <p>Performed QA on the store’s buying flow — product display, coupon use, and payment testing via Midtrans simulator, enhancing UI for better business presentation.</p>
+        <a href="https://kitagaruda.id/id" target="_blank" class="view-btn">View Project</a>
+      </div>
+
+      <!-- Project 5 -->
+      <div class="portfolio-item">
+        <img src="images/mitsubishi.png" alt="Project 5">
+        <h3>Mitsubishi Electric Indonesia</h3>
+        <div class="tech-badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">JSON</span>
+          <span class="badge">JavaScript</span>
+        </div>
+        <p>Maintained and improved Mitsubishi Indonesia’s website — created new pages, fixed frontend bugs, integrated JSON APIs, tested on staging, and coordinated production deployment.</p>
+        <a href="https://www.mitsubishielectric.com/fa/id_en/" target="_blank" class="view-btn">View Project</a>
+      </div>
+
+      <!-- Project 6 -->
+      <div class="portfolio-item">
+        <img src="images/home.png" alt="Project 6">
+        <h3>This Website</h3>
+        <div class="tech-badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">JavaScript</span>
+          <span class="badge">Node.js</span>
+          <span class="badge">Nodemailer</span>
+        </div>
+        <p>A personal portfolio showcasing my skills, projects, and passion for web development and cybersecurity.</p>
+      </div>
+
+      <!-- Project 7 -->
+      <div class="portfolio-item">
+        <img src="images/profiling.png" alt="Project 7">
+        <h3>Profiling 5 Threat Actor & Social Engineering (Collaboration with Kementrian Pertahanan)</h3>
+        <div class="tech-badges">
+          <span class="badge">OSINT Tools</span>
+        </div>
+        <p>Performed in-depth profiling using Maltego and Whois, collecting TTPs and mapping infrastructures for cybersecurity insights.</p>
+      </div>
+
+      <!-- Project 8 -->
+      <div class="portfolio-item">
+        <img src="images/guide.png" alt="Project 8">
+        <h3>Guide Application</h3>
+        <div class="tech-badges">
+          <span class="badge">Java</span>
+          <span class="badge">Firebase</span>
+          <span class="badge">ML Kit</span>
+          <span class="badge">Sensors</span>
+        </div>
+        <p>A mobile tourist guide app integrating ML Kit, Firebase, and device sensors for translations and recommendations.</p>
+      </div>
+
+      <!-- Project 9 -->
+      <div class="portfolio-item">
+        <img src="images/chatbot.jpg" alt="Project 9">
+        <h3>Chatbot</h3>
+        <div class="tech-badges">
+          <span class="badge">Node.js</span>
+          <span class="badge">Gemini API</span>
+          <span class="badge">JavaScript</span>
+        </div>
+        <p>A medical chatbot built using Node.js and Gemini API to provide symptom analysis and suggestions.</p>
+      </div>
+
+      <!-- Project 10 -->
+      <div class="portfolio-item">
+        <img src="images/hospital.png" alt="Project 10">
+        <h3>Hospital Management</h3>
+        <div class="tech-badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+          <span class="badge">PHP</span>
+          <span class="badge">MySQL</span>
+        </div>
+        <p>Developed a PHP–MySQL hospital management system handling patients, doctors, and prescriptions.</p>
+        <button class="view-btn" onclick="openModal('images/full_hospital.png')">View Project</button>
+      </div>
+
+      <!-- Project 11 -->
+      <div class="portfolio-item">
+        <img src="images/Your make up.png" alt="Project 11">
+        <h3>Your Make Up</h3>
+        <div class="tech-badges">
+          <span class="badge">HTML</span>
+          <span class="badge">CSS</span>
+        </div>
+        <p>A simple e-commerce design concept for a cosmetics shop built with HTML and CSS.</p>
+        <button class="view-btn" onclick="openModal('images/full_your_makeup.png')">View Project</button>
+      </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close-btn">&times;</span>
+      <img class="modal-content" id="modalImage">
+    </div>
+
+  </main>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('navbar-right').classList.toggle('show');
+    }
+    function openModal(imageSrc) {
+      document.getElementById("modalImage").src = imageSrc;
+      document.getElementById("imageModal").style.display = "block";
+    }
+    function closeModal() {
+      document.getElementById("imageModal").style.display = "none";
+    }
+  </script>
+
+  <script>
+    const items = document.querySelectorAll(".portfolio-item");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.animationPlayState = "running";
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.1 });
+    items.forEach(item => observer.observe(item));
+  </script>
+</body>
+</html>
